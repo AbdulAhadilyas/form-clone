@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.main{
+    display: flex;
+}
+.form{
+    width: 75%;   
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+.img{
+    background-image: url(./Capture.PNG) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+h1{
+   margin-bottom: 40px;
+   font-weight: 400;    
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 35px;
+    color: #333;
+    line-height: 1.2;
+
+}
+.box{
+    padding: 10px;
+}
+.inputbox > input{
+    outline: none;
+    border: none;
+   
+    height: 80px;
+    padding-left: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: transparent;
+}
+.inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 450px;
+    height: 80px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cheak-box{
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    padding-left: 10px;
+    align-items: center;
+}
+.check > input{
+    outline: none;
+    border: 1px solid #34495E;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0;
+}
+.check{
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #6675df;
+    top: 50%;
+    
+}
+.check-input-box{
+    display: flex;
+    align-items: center;
+
+}
+.cheak-span{
+ padding-left: 9px;
+
+ font-size: 15px;
+ color: #999;
+ line-height: 1.4;
+ display: block;
+ position: relative;
+ cursor: pointer;
+}
+.forget{
+    font-size: 13px;
+    line-height: 1.4;
+    color: #555;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    background: #6675df;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+
+}
